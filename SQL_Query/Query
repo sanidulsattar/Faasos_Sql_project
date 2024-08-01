@@ -12,6 +12,8 @@ INSERT INTO driver(driver_id,reg_date)
 drop table if exists ingredients;
 CREATE TABLE ingredients(ingredients_id integer,ingredients_name varchar(60)); 
 
+
+
 INSERT INTO ingredients(ingredients_id ,ingredients_name) 
  VALUES (1,'BBQ Chicken'),
 (2,'Chilli Sauce'),
